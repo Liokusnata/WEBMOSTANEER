@@ -73,7 +73,7 @@ function sendToWhatsApp() {
   }
 
   const whatsappNumber = '6283875222635';
-  const text = `Halo, saya ingin menghubungi:\n\nNama: ${name}\nEmail: ${email}\nPesan: ${message}`;
+  const text = `Bislmillah, Assalamu'alaikum waramatullahi wabarokatuh min,:\n\nNama: ${name}\nEmail: ${email}\nPesan: ${message}`;
   const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
 
   window.open(url, '_blank');
